@@ -1,0 +1,10 @@
+package com.alt.repository;
+
+import com.alt.entity.UserEntity;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends CrudRepository<UserEntity,Long> {
+
+}
